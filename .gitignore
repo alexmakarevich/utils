@@ -7,3 +7,6 @@
 # production
 /build
 */dist
+
+#sandbox
+_sandbox/

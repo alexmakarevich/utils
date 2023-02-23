@@ -1,0 +1,15 @@
+{
+	"name": "utils",
+	"version": "0.1.0",
+	"description": "utils",
+	"main": "index.js",
+	"author": "Alex Makarevich",
+	"devDependencies": {
+		"@types/jest": "^29.4.0",
+		"jest": "^29.4.2",
+		"ts-jest": "^29.0.5",
+		"ts-node": "^10.9.1",
+		"tsafe": "^1.4.3",
+		"typescript": "^4.9.5"
+	}
+}

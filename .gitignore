@@ -1,0 +1,9 @@
+# dependencies
+*/node_modules
+
+# for per-machine dependency resolutiom
+*/yarn.lock
+
+# production
+/build
+*/dist

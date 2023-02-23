@@ -1,0 +1,6 @@
+{
+	"compilerOptions": {
+		"noImplicitThis": true,
+		"lib": ["ES2022", "dom"]
+	}
+}

@@ -1,12 +1,11 @@
 # dependencies
-*/node_modules
+*node_modules/
 
 # for per-machine dependency resolutiom
-*/yarn.lock
+*yarn.lock
 
 # production
-/build
-*/dist
+*dist
 
 #sandbox
-_sandbox/
+*_sandbox/

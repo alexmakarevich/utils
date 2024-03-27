@@ -1,6 +1,20 @@
 {
 	"compilerOptions": {
+		"module": "commonjs",
+		"declaration": true,
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": "./src",
+		"incremental": true,
+		"skipLibCheck": true,
+		"strictNullChecks": false,
+		"noImplicitAny": false,
+		"strictBindCallApply": false,
+		"forceConsistentCasingInFileNames": false,
+		"noFallthroughCasesInSwitch": false,
 		"noImplicitThis": true,
+		"sourceRoot": "src",
+		"sourceMap": true,
+		"outDir": "dist",
 		"lib": ["ES2022", "dom"]
 	}
 }

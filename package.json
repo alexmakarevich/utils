@@ -1,8 +1,10 @@
 {
 	"name": "utils",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "utils",
-	"main": "index.js",
+	"exports": {
+		"./*" : "./dist/*.js"
+	},
 	"author": "Alex Makarevich",
 	"devDependencies": {
 		"@types/jest": "^29.4.0",

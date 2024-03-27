@@ -3,6 +3,7 @@
 	"version": "0.1.1",
 	"description": "utils",
 	"main": "dist/main.js",
+	"files": ["./dist"],
 	"author": "Alex Makarevich",
 	"devDependencies": {
 		"@types/jest": "^29.4.0",

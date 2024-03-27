@@ -1,3 +1,4 @@
+/** Based on https://github.com/microsoft/TypeScript/issues/40928 */
 export type HigherKindedType<P = unknown> = {
     GenericValue: P;
     GenericResult: unknown;

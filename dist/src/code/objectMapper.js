@@ -5,6 +5,7 @@ var objectMapperSimple = function (callback) {
     return function (p, properties) {
         var newObject = {};
         for (var prop in p) {
+            // @ts-ignore
             newObject[prop] = properties.includes(prop) ? callback(p[prop]) : p[prop];
         }
         return newObject;
@@ -15,6 +16,7 @@ var objectMapperComplex = function (callback) {
     return function (p, properties) {
         var newObject = {};
         for (var prop in p) {
+            // @ts-ignore
             newObject[prop] = properties.includes(prop) ? callback(p[prop]) : p[prop];
         }
         return newObject;

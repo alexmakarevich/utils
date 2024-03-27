@@ -62,14 +62,15 @@ describe(__filename, function () {
                         c: false,
                         d: function (a, b) { return true; },
                     }, ["a", "b", "c", "d"]);
+                    // test of type
                     testTypes_1.assert;
                     expect(mapResult).toMatchObject({ a: "", b: true, c: false });
                     expect(mapResult.d("a", "lol")).toBeInstanceOf(Promise);
                     _a = expect;
-                    return [4, mapResult.d("a", "lol")];
+                    return [4 /*yield*/, mapResult.d("a", "lol")];
                 case 1:
                     _a.apply(void 0, [_b.sent()]).toEqual(true);
-                    return [2];
+                    return [2 /*return*/];
             }
         });
     }); });
@@ -82,14 +83,15 @@ describe(__filename, function () {
                         a: function () { return true; },
                         b: function () { return true; },
                     }, ["a"]);
+                    // test of type
                     testTypes_1.assert;
                     expect(mapResult.a()).toBeInstanceOf(Promise);
                     _a = expect;
-                    return [4, mapResult.a()];
+                    return [4 /*yield*/, mapResult.a()];
                 case 1:
                     _a.apply(void 0, [_b.sent()]).toEqual(true);
                     expect(mapResult.b()).toEqual(true);
-                    return [2];
+                    return [2 /*return*/];
             }
         });
     }); });

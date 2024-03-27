@@ -2,9 +2,7 @@
 	"name": "utils",
 	"version": "0.1.1",
 	"description": "utils",
-	"exports": {
-		"./*" : "./dist/*.js"
-	},
+	"main": "dist/main.js",
 	"author": "Alex Makarevich",
 	"devDependencies": {
 		"@types/jest": "^29.4.0",

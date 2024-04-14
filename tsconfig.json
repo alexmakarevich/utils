@@ -1,6 +1,24 @@
 {
 	"compilerOptions": {
+		"module": "commonjs",
+		"declaration": true,
+		"allowSyntheticDefaultImports": true,
+		"incremental": true,
+		"skipLibCheck": true,
+		"strictNullChecks": false,
+		"noImplicitAny": false,
+		"strictBindCallApply": false,
+		"forceConsistentCasingInFileNames": false,
+		"noFallthroughCasesInSwitch": false,
 		"noImplicitThis": true,
-		"lib": ["ES2022", "dom"]
-	}
+		"sourceMap": true,
+		"outDir": "dist",
+		"baseUrl": "./",
+	},
+	"include" :[
+		"src/**/*.ts"
+  ],
+	"exclude": [
+		"src/**/*test.ts"
+	]
 }

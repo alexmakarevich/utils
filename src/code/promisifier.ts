@@ -12,12 +12,3 @@ export const promisifier =
 		new Promise((res, rej) => {
 			cpsFn.call(context ?? null, ...params, (err: any, ...results: CbResults) => (err ? rej(err) : res(results)));
 		});
-
-interface Params {
-	params: any;
-}
-
-interface Params2 extends Params {
-	generic: "s";
-	params: this["generic"];
-}

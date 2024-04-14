@@ -4,8 +4,5 @@
 # for per-machine dependency resolutiom
 *yarn.lock
 
-# production
-*dist
-
 #sandbox
-*_sandbox/
+sandbox/
